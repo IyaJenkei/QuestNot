@@ -1,0 +1,122 @@
+
+/*
+	#427AA1
+	#679436
+	#A5BE00 clicked/hover green
+	#EBF2FA
+	#05668D background
+*/
+
+
+body {
+	background-color: #05668D;
+	font-family: 'Anton', sans-serif;
+}
+
+.main-housing {
+	margin: 0 auto;
+	width: 70%;
+	height: 4000px;
+	text-align: center;
+	background-color: #05668D;
+}
+
+.container {
+	margin-top: 50px;
+}
+
+.first-panel p {
+	font-size: 50px;
+	margin-bottom: 20px;
+	text-align: justify;
+}
+
+.btn {
+	padding: 10px;
+	font-size: 24px;
+}
+
+.btn-default {
+	background-color: #6d9fc3;
+	border-color: #2c516b;
+	color: #393939;
+	background: #91b7d2;
+}
+
+.btn-info {
+	margin: 5px auto;
+	margin-right: 5px;
+	min-height: 46px;
+	min-width: 46px;
+	text-align: center;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active {
+	background-color: #91b7d2;
+}
+
+.hidden {
+	display: none;
+}
+
+.main-panel {
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+	padding-bottom: 5px;
+}
+
+.top-tags-panel {
+	padding-bottom: 20px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.top-tags-clicked {
+	background-color: #b0d531;
+}
+
+.search-input {
+	height: 55px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.search-button {
+	height: 45px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.close-icon {
+	width: 20px;
+	height: 20px;
+	border: 3px solid #d5315e;
+	border-radius: 100%;
+	background: -webkit-linear-gradient(-45deg, transparent 0%, transparent 46%, white 46%, white 56%,transparent 56%, transparent 100%), -webkit-linear-gradient(45deg, transparent 0%, transparent 46%, white 46%, white 56%,transparent 56%, transparent 100%);
+	background-color: #d5315e;
+	box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.5);
+	transition: all 0.3s ease;
+}
+
+.answer .col-md-1 {
+	vertical-align: middle;
+}
+
+.result-link {
+	font-size: 30px;
+}
+
+
+a {
+	font-family: 'PT Sans', sans-serif;
+	color: #A5BE00;
+}
+
+#login-button {
+	width: 100%;
+}
